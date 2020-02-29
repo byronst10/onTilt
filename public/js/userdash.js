@@ -18,8 +18,12 @@ $(document).ready(function() {
       console.log(homeTeam);
       console.log(awayTeam);
       gameDiv.append(
-        `${homeTeam} ${homeScore || ""} vs ${awayTeam} ${awayScore || ""}`
+        `${homeTeam} ${homeScore ||
+          ""} <span>vs</span> ${awayTeam} ${awayScore || ""}`
       );
+
+      // gameDiv.append(homeTeam + ": " + homeScore + " " + " " + " | " + "<span>vs</span>" + " | " + " " + " ");
+      // gameDiv.append(awayTeam + ": " + awayScore);
 
       $("#games").append(gameDiv);
       console.log(response.data);
