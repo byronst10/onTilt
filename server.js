@@ -121,8 +121,8 @@ app.get("/", (req, res) => {
 
 // =================================================================================
 
-// setting initial port or port 8080
-var PORT = process.env.PORT || 4000;
+// setting initial port or port 5000
+var PORT = process.env.PORT || 5000;
 var db = require("./models");
 require("./routes/bets")(app);
 require("./routes/users")(app);
