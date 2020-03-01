@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Sport Betting App",
   "main": "server.js",
-  "engines": {
-    "node": "12.14.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -14,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chloec222/onTilt.git"
+    "url": "git+https://github.com/byronst10/onTilt.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chloec222/onTilt/issues"
+    "url": "https://github.com/byronst10/onTilt/issues"
   },
-  "homepage": "https://github.com/chloec222/onTilt#readme",
+  "homepage": "https://github.com/byronst10/onTilt#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
