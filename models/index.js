@@ -19,6 +19,14 @@ if (config.use_env_variable) {
   );
 }
 
+//config.json
+module.exports = {
+"production": {
+  "use_env_variable" : "JAWSDB_URL",
+  "dialect": "mysql"
+}
+}
+
 fs.readdirSync(__dirname)
   .filter(function(file) {
     return (
